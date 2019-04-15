@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+
+:root{
+    --mainWhite: #fff;
+    --mainBlack: #000;
+    --mainBlue:#45aaf2;
+    --yellowTrans: rgba(249, 228, 148, 0.5);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Inconsolata';
+    background: var(--mainWhite);
+    color:var(--mainBlack);
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+li{
+    list-style: none;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+/* global style */
+.btn-blue{
+    color: var(--mainBlue);
+    border-color: var(--mainBlue);
+    
+}
+.btn-black{
+    color: var(--mainBlack);
+    border-color: var(--mainBlack);
+}
+.btn-black:hover{
+    color: var(--mainBlue);
+    border-color: var(--mainBlack);
+}
+.btn-blue:hover{
+    color: var(--mainBlack);
+    border-color: var(--mainBlue);
+}
+.navbar-toggler{
+    outline: none;
+}
+.toggler-icon{
+    font-size: 1.5rem;
+    color: var(--mainBlack);
+}
+.nav-link{
+    color: var(--mainBlue);
+    transition: all 1s ease-in-out;
+    font-size: 1.5rem;
+}
+.nav-link:hover{
+    color:var(--mainBlack);
+}
+.max-height{
+    min-height: calc(100vh - 85px);
+    background:linear-gradient(var(--mainBlack), var(--yellowTrans)), url('..img/banner-img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner{
+    margin-top: 10rem;
+    color:var(--mainWhite);
+}
+.banner-link{
+    font-size: 1rem;
+    color: var(--mainWhite);
+    border: 0.1rem solid var(--mainBlue);
+}
+.banner-link:hover{
+    background: var(--mainBlue);
+    color: var(--mainWhite);
+}
+.banner-title{
+    color:var(--mainBlue);
+}
+.profile-photo{
+    position: relative;
+    border-radius: 100%;
+}
+ 
+.progress-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 10px 0;
+}
+
+.progress{
+    height: 20px;
+    line-height: 15px;
+    border-radius: 5px;
+    background: #f0f0f0;
+    margin-bottom: 30px;
+    box-shadow: none;
+    overflow: visible;
+}
+
+.progress-bar{
+    position: relative;
+    border-radius: 0;
+    opacity: 0;
+}
+
+.progress .progress-value{
+    display: block;
+    font-size: 13px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 8px;
+}
+
+@-webkit-keyframes animate-positive{
+    0% { width: 0%; }
+}
+@keyframes animate-positive{
+    0% { width: 0%; }
+}
+
+.work-img{
+    transition: all 1s ease-in-out;
+}
+.img-container:hover .work-img{
+    transform: scale(1.1);
+}
+.fa:hover{
+    opacity:0.7;
+}
+.facebook-title{
+ color: #3B5998;
+}
+.github-title{
+ color: #333;
+}
+.linkedin-title{
+color: #4875b4;
+}
+footer{
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+}

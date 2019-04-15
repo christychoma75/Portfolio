@@ -1,0 +1,11 @@
+#header{
+    background: url(../img/jumbontron\ image.jpeg) no-repeat center;
+    background-size: cover;
+    
+}
+h1{
+    color: white;
+}
+img{
+    width: 100%;
+}
