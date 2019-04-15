@@ -1,0 +1,1 @@
+This is a simple website about my portfolio. there are everything you need to know from me. my skills, work to how to contact me
